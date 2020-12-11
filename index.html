@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HEAD TO TOE</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+	<header>
+		<div class="main" id="myTopnav">
+			<ul>
+        		<li class="active"><a href="index.html"><i class="fas fa-home"></i>HOME</a></li>
+	        	<li><a href="#"><i class="fas fa-tshirt"></i>PRODUCT</a></li>
+		        <li><a href="#"><i class="far fa-credit-card"></i>PAYMENT</a></li>
+		        <li><a href="#"><i class="fas fa-phone-alt"></i>SERVICE</a></li>
+		        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+		        <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">    
+		        	<i class="fa fa-bars"></i></a>
+		        </li>
+	      	</ul>
+		</div>
+		<div class="button">
+			<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><b>ORDER NOW</b></button>
+		</div>
+		<div id="id01" class="modal">
+			<form class="modal-content animate">
+				<div class="imgcontainer">
+					<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				</div>
+				<div class="form-container">
+					<h3 class="section-title">Format Order</h3>
+	        		<p>Nama</p>
+			        <input>
+			        <p>Alamat</p>
+			        <textarea></textarea>
+
+			        <p>No. Whatsapp</p>
+			        <input>
+			        <p>Pesanan</p>
+			        <textarea></textarea>
+
+			        <input class="contact-submit" type="submit" value="Kirim">
+			     </div>
+		    </form>
+		</div>
+		<div class="title">
+			<h2 ><strong>HEAD TO TOE</strong></h2>
+		</div>
+		
+    </div>
+	</header>
+
+	<product>
+		<div class="container">
+			<h1 style="font-size:3vw;"><strong>PRODUCT</strong></h1>
+			<section class="box">
+      			<h5><marquee>Tersedia berbagai macam produk untuk wanita muslimah</marquee></h5>
+      			<div class="barang">
+	        		<div class="col-5">
+		            	<img src="veil.jpg" style="max-width:100%;height:auto;"> 
+		            </div>
+		            <p class="text-contents" >BLACK</p>
+		        </div>
+          		<div class="barang">
+	        		<div class="col-5">
+		            	<img src="chessnut.jpg" style="max-width:100%;height:auto;"> 
+		            </div>
+		            <p class="text-contents" >NUT</p>
+		        </div>
+		        <div class="barang">
+	        		<div class="col-5">
+		            	<img src="grey.jpg" style="max-width:100%;height:auto;"> 
+		            </div>
+		            <p class="text-contents" >GREY</p>
+		        </div>
+		        <div class="barang">
+	        		<div class="col-5">
+		            	<img src="green.jpg" style="max-width:100%;height:auto;"> 
+		            </div>
+		            <p class="text-contents" >GREEN</p>
+		        </div>
+
+	             
+	        </section>
+	    </div>
+	</product>
+
+	<payment>
+		<div class="payment">
+			<h1 style="font-size:3vw;"><strong>PAYMENT</strong></h1>
+			<section class="box">
+				<h5><marquee>REKENING HANYA an. HELMALIA A.</marquee></h5>
+				<div class="bank">
+					<div class="col-3">
+			        	<img src="bri.png" style="max-width:100%;height:auto;"> 
+			    	</div>
+			    </div>
+			    <div class="bank">
+			        <div class="col-3">
+			            <img src="bca.png" style="max-width:100%;height:auto;">
+			        </div>
+				</div>
+				<div class="bank">		    
+			        <div class="col-3">
+			            <img src="shopee.png" style="max-width:100%;height:auto;">
+			        </div>
+			    </div>
+			    <div class="bank">
+			       	<div class="col-3">
+			            <img src="bank.png" style="max-width:100%;height:auto;">
+			        </div>
+	       		</div>
+	       	</section>	
+	    </div>
+	</payment>
+
+	<service>
+		<div class="service">
+			<h1 style="font-size:3vw;"><strong>CUSTOMER SERVICE</strong></h1>
+			<section class="box">
+			<h5 ><marquee>Kritik dan Saran Silahkan Hubungi Kontak berikut</marquee></h5>
+			<div class="box">
+        		<div class="col-4">
+          			<div class="icon"><i class="far fa-envelope"></i></div>
+          			<h4>Email</h4>
+          			<p>helma3345@gmail.com</p>
+       			</div>
+        		<div class="col-4">
+          			<div class="icon"><i class="fab fa-whatsapp"></i></div>
+          			<h4>Whatsapp Business</h4>
+          			<p> (+62) 896 8392 1460</p>
+	        	</div>
+	        	<div class="col-4">
+	        		<div class="icon"><i class="fas fa-phone-volume"></i></div>
+	        		<h4>Telepon</h4>
+	        		<p> (+62) 822 4342 0268 </p>
+		    	</div>
+		    </div>
+		</div>
+	</service>
+
+	<div class="contact-form">
+        <h3 class="section-title">Format Order</h3>
+        <p>Nama</p>
+        <input>
+        <p>Alamat</p>
+        <textarea></textarea>
+
+        <p>No. Whatsapp</p>
+        <input>
+        <p>Pesanan</p>
+        <textarea></textarea>
+
+        <input class="contact-submit" type="submit" value="Kirim">
+    </div>
+
+	<footer>
+      <div class="container2">
+        <small>Copyright &copy; 2020 - Helmalia A. Lovtyaji. All Rights Reserved.</small>
+      </div>
+    </footer>
+
+
+    <script type="text/javascript" src="main.js"></script>
+
+    
+</body>
+</html>

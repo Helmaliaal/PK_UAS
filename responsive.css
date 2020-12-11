@@ -1,0 +1,37 @@
+@media all and (max-width: 1000px) {
+		header {
+			width: 100%;
+		}
+
+		.main li {
+			display: none
+		}
+
+		.main.icon {
+			float: right;
+			display:block;
+		}
+
+
+
+
+@media all and (max-width: 670px) {
+	footer {
+    	text-align: center;
+  	}
+  	
+  	header {
+			width: 100%;
+		}
+
+		.main li {
+			display: none
+		}
+
+		.main.icon {
+			float: right;
+			display:block;
+		}
+
+		
+}
