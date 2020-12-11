@@ -1,0 +1,13 @@
+@media all and (max-width: 1000px) {
+		header {
+			width: 100%;
+		}
+
+		.main li {
+			display: none
+		}
+
+		.main.icon {
+			float: right;
+			display:block;
+		}
