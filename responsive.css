@@ -34,9 +34,9 @@
   }
 
   .title  {
-    font-size: 35px;
+    font-size: 32.5px;
     left:2px;
-    align-items: center;
+    text-align: center;
   }
 
   button {
@@ -52,7 +52,7 @@
   form {
     width: 80%;
     align-items: center;
-    
+
   }
 
   input,textarea {
