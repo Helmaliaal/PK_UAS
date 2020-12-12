@@ -1,0 +1,93 @@
+@media screen and (max-width:1000px) {
+  .box {
+    width:100%;
+  }
+
+  .box .col-4 {
+    width:70%;
+    padding-bottom: 50px;
+  }
+
+  .title  {
+    font-size: 35px;
+    left:2px;
+    align-items: center;
+  }
+
+  .button {
+    top: 60%;
+    left:35%;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .main li:not(:first-child) {
+    display: none;
+  }
+  .main li.icon {
+    float: right;
+    display: block;
+  }
+
+  .title  {
+    font-size: 35px;
+    left:2px;
+    align-items: center;
+  }
+
+  .button {
+    top: 60%;
+    left:35%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input,textarea {
+    width: 100%;
+  }
+
+
+  .barang {
+    width: 60%;
+    margin-left:22.5%;
+    background-color: initial;
+  }
+
+  .text-contents {
+    font-size: 20px;
+    margin-top:0;
+    margin-left: 40%;
+  }
+
+  .box {
+    width:100%;
+  }
+
+  .bank {
+    width:30%;
+    margin-left:35%;
+  } 
+
+  .box .col-4 {
+    width:70%;
+    padding-bottom: 50px;
+  }
+
+  .main.responsive {position: relative;}
+  .main.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .main.responsive li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
