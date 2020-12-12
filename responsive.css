@@ -54,7 +54,7 @@
 
 
   .barang {
-    width: 60%;
+    width: 100%;
     margin-left:22.5%;
     background-color: initial;
   }
@@ -78,6 +78,8 @@
     width:70%;
     padding-bottom: 50px;
   }
+  
+  
 
   .main.responsive {position: relative;}
   .main.responsive .icon {
