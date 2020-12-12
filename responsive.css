@@ -24,7 +24,7 @@
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .main li:not(:first-child) {
     display: none;
   }
@@ -39,15 +39,20 @@
     align-items: center;
   }
 
+  button {
+    padding:12px 20px;
+    font-size: 15px;
+  }
+
   .button {
     top: 60%;
-    left:30%;
+    left:35%;
   }
 
   form {
     width: 80%;
     align-items: center;
-
+    
   }
 
   input,textarea {
@@ -56,15 +61,12 @@
 
 
   .barang {
-    width: 100%;
-    margin-left:15%;
+    width: 70%;
+    margin-left:12.5%;
     background-color: initial;
   }
 
-  .box .col-5 {
-    width:70%;
-    padding-bottom: 30px;
-  }
+  
 
   .text-contents {
     font-size: 20px;
@@ -78,11 +80,12 @@
 
   .bank {
     width:30%;
-    margin-left:22.5%;
+    margin-left:32.5%;
   } 
 
   .box .col-4 {
     width:70%;
+    align-items: center ;
     padding-bottom: 50px;
   }
 
