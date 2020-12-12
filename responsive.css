@@ -24,7 +24,7 @@
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 670px) {
   .main li:not(:first-child) {
     display: none;
   }
@@ -41,7 +41,7 @@
 
   .button {
     top: 60%;
-    left:35%;
+    left:30%;
   }
 
   form {
@@ -55,7 +55,7 @@
 
   .barang {
     width: 100%;
-    margin-left:22.5%;
+    margin-left:15%;
     background-color: initial;
   }
 
@@ -71,15 +71,18 @@
 
   .bank {
     width:30%;
-    margin-left:35%;
+    margin-left:25%;
   } 
 
   .box .col-4 {
     width:70%;
     padding-bottom: 50px;
   }
-  
-  
+
+  footer {
+    width: 100%;
+    font-size: 15px;
+  }
 
   .main.responsive {position: relative;}
   .main.responsive .icon {
