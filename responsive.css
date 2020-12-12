@@ -45,7 +45,9 @@
   }
 
   form {
-    width: 100%;
+    width: 80%;
+    align-items: center;
+
   }
 
   input,textarea {
@@ -57,6 +59,11 @@
     width: 100%;
     margin-left:15%;
     background-color: initial;
+  }
+
+  .box .col-5 {
+    width:70%;
+    padding-bottom: 30px;
   }
 
   .text-contents {
@@ -71,7 +78,7 @@
 
   .bank {
     width:30%;
-    margin-left:25%;
+    margin-left:22.5%;
   } 
 
   .box .col-4 {
